@@ -2,7 +2,7 @@ import { Col, Row } from "antd";
 import React, { useEffect, useState } from "react"; // Import useEffect and useState
 import ProductCard from "./ProductCard.tsx";
 import { ProductType } from "../../type/product";
-import Product from "../../apis/product";
+import Product from "../../apis/product.ts";
 import { useQuery } from "@tanstack/react-query";
 
 export default function SearchList({ searchTerm }) {

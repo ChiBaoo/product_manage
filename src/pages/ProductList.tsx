@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useInfiniteQuery, QueryFunction } from "@tanstack/react-query";
-import Product from "../apis/product";
+import Product from "../apis/product.ts";
 import useProductStore from "../zustands/product.ts"; // Import Zustand store
 import InfiniteScroll from "react-infinite-scroll-component"; // InfiniteScroll component
 import ProductCard from "../components/ProductList/ProductCard.tsx"; // Adjust the import if necessary

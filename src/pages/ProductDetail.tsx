@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import Product from "../apis/product";
+import Product from "../apis/product.ts";
 import { Button, Spin } from "antd";
 import LoadingCard from "../components/ProductDetail/LoadingDetail.tsx";
 
